@@ -1,3 +1,5 @@
 # DoublePendulumSimulation
-![start](https://user-images.githubusercontent.com/93014053/173962204-4a1ce705-3f17-4eb8-9366-1c0b3bfdfe67.png)
 Interactive double pendulum simulation
+
+https://user-images.githubusercontent.com/93014053/193636849-bf212f9f-815c-4a8f-b679-8696a89bdc33.mp4
+
