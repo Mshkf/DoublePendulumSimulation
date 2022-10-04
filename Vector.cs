@@ -32,7 +32,8 @@ namespace DoublePendulum
 
         public static Vector operator +(Vector a, Vector b)
         {
-            Vector c = new Vector(Math.Max(a.length, b.length));
+            if (a.length != b.length) throw new ArgumentException();
+            Vector c = new Vector(a.length);
             for (int i = 0; i < c.length; i++)
             {
                 c[i] = a[i] + b[i];
@@ -49,6 +50,8 @@ namespace DoublePendulum
             }
             return b;
         }
+
+        public static Vector operator *(Vector a, double h) => h * a;
 
         public override string ToString()
         {
